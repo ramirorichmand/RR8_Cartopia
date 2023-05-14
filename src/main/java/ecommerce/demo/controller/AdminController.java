@@ -2,9 +2,7 @@ package ecommerce.demo.controller;
 
 import java.util.List;
 
-
 import javax.validation.Valid;
-
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,21 +17,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ecommerce.demo.exceptions.AdminException;
-import com.ecommerce.demo.exceptions.CustomerException;
-import com.ecommerce.demo.exceptions.OrderException;
-import com.ecommerce.demo.model.Admin;
-import com.ecommerce.demo.model.Customer;
-import com.ecommerce.demo.model.Orders;
-import com.ecommerce.demo.model.Product;
-import com.ecommerce.demo.model.ProductDTO;
-import com.ecommerce.demo.service.AdminService;
-import com.ecommerce.demo.service.CustomerService;
-import com.ecommerce.demo.service.OrderService;
-import com.ecommerce.demo.service.ProductService;
-
-import io.swagger.models.Response;
-
+import ecommerce.demo.exceptions.AdminException;
+import ecommerce.demo.exceptions.CustomerException;
+import ecommerce.demo.exceptions.OrderException;
+import ecommerce.demo.model.Admin;
+import ecommerce.demo.model.Customer;
+import ecommerce.demo.model.Orders;
+import ecommerce.demo.model.Product;
+import ecommerce.demo.model.ProductDTO;
+import ecommerce.demo.service.AdminService;
+import ecommerce.demo.service.CustomerService;
+import ecommerce.demo.service.OrderService;
+import ecommerce.demo.service.ProductService;
 
 @RestController
 @RequestMapping(value = "/admin")
