@@ -2,9 +2,6 @@ package ecommerce.demo.controller;
 
 import java.util.List;
 
-import javax.validation.Valid;
-import javax.websocket.server.PathParam;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,19 +15,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import ecommerce.exceptions.CartException;
-import ecommerce.exceptions.CustomerException;
-import ecommerce.exceptions.OrderException;
-import ecommerce.model.AddressDto;
-import ecommerce.model.Cart;
-import ecommerce.model.Customer;
-import ecommerce.model.CustomerDTO;
-import ecommerce.model.Orders;
-import ecommerce.model.Product;
-import ecommerce.model.ProductDtoSec;
-import ecommerce.service.CartService;
-import ecommerce.service.CustomerService;
-import ecommerce.service.OrderService;
+import ecommerce.demo.exceptions.CartException;
+import ecommerce.demo.exceptions.CustomerException;
+import ecommerce.demo.exceptions.OrderException;
+import ecommerce.demo.model.AddressDto;
+import ecommerce.demo.model.Cart;
+import ecommerce.demo.model.Customer;
+import ecommerce.demo.model.CustomerDTO;
+import ecommerce.demo.model.Orders;
+import ecommerce.demo.model.Product;
+import ecommerce.demo.model.ProductDtoSec;
+import ecommerce.demo.service.CartService;
+import ecommerce.demo.service.CustomerService;
+import ecommerce.demo.service.OrderService;
 
 @RestController
 @RequestMapping("/Customer")
