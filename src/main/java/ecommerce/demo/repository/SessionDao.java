@@ -7,6 +7,6 @@ import ecommerce.demo.model.CurrentUserSession;
 
 @Repository
 public interface SessionDao extends JpaRepository<CurrentUserSession, Integer> {
-    
+
     public  CurrentUserSession  findByUuid(String uuid);
 }
