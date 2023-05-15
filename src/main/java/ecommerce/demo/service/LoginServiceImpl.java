@@ -22,7 +22,7 @@ public class LoginServiceImpl implements LoginService{
 
     @Autowired
     private SessionDao sDao;
-    
+
     @Override
     public String logIntoAccount(LoginDTO dto)throws LoginException{
         Customer existingCustomer= cDao.findByMobileNumber(dto.getMobileNumber());
