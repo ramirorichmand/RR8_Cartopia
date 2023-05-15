@@ -1,6 +1,6 @@
-# 10/05/2023 RR8_UnconfirmedTitle
+# 10/05/2023 RR8 E-Shopper API: Your Ultimate Shopping Companion! 🛍️ 
 
-This is a Individual project, I have built a rest API service for an Online Shopping Application which can be used by customers to login into their profile, update their information and Add the product to the cart and order them. All this is over looked by the admin who can also login and update their information as well as access the data in the Admin Module. 
+A robust REST API service for an Online Shopping Application. This exciting API empowers customers to login to their profiles, update their information, and seamlessly navigate through a delightful shopping experience. Meanwhile, the diligent admin oversees the operations, ensuring smooth functionality and access to valuable data within the Admin Module. 
 
 ## Tech Stack 👨‍🔧
 - Java
@@ -12,18 +12,18 @@ This is a Individual project, I have built a rest API service for an Online Shop
 
 ## Features 🎨
 
-- Data Authentication and Validation for all the users (Admin and Customer)
+- 🔐 Data Authentication and Validation: authentication and validation mechanisms ensure secure access for both admins and customers.
 
 ### Admin Features
-- Admin can access all Order details along with specific Order details using a particular customerId.
-- Admin can Add product and remove as well.
+- Access to Order Details: Admins can effortlessly view all order details and obtain specific order details using a particular customer's ID.
+- Product Management: Admins have the authority to add and remove products from the inventory.
 
 
 ### Customer Features
-- Customer can login in the application and update their information using their mobile number and password.
-- Customer can add product to cart and remove the product from cart as well.
-- Customer can update quantity after adding the product to the cart.
-- Customer can Order the product and Cancel as Well.
+- Seamless Login: Customers can easily log in to the application using their mobile number and password.
+- Profile Updates: Customers have the flexibility to update their information, ensuring accuracy and relevance.
+- Cart Management: Customers can effortlessly add products to their carts, remove items, and even update quantities as desired.
+- Order Placement and Cancellation: Customers can place orders for their desired products and cancel them when needed.
 
 
 ## Installation & Run 🔢
