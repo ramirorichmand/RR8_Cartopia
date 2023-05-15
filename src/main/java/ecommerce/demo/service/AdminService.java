@@ -7,5 +7,11 @@ import ecommerce.demo.exceptions.AdminException;
 import ecommerce.demo.model.Admin;
 
 
-public class AdminService {
+public interface AdminService {
+    public Admin createAdmin(Admin Admin)throws AdminException;
+
+    public  Admin updateAdmin(Admin Admin,String key)throws AdminException;
+
+    public String deleteAdmin(Integer adminId,String key) throws AdminException;
+
 }
