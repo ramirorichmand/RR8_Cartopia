@@ -1,4 +1,4 @@
-# 10/05/2023 RR8 E-Shopper API: Your Ultimate Shopping Companion! 🛍️ 
+# 10/05/2023 RR8 Cartopia: Your Ultimate Shopping Companion! 🛍️🛒 
 
 A robust REST API service for an Online Shopping Application. This exciting API empowers customers to login to their profiles, update their information, and seamlessly navigate through a delightful shopping experience. Meanwhile, the diligent admin oversees the operations, ensuring smooth functionality and access to valuable data within the Admin Module. 
 
