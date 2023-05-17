@@ -1,6 +1,6 @@
-# 10/05/2023 RR8 Cartopia: Your Ultimate Shopping Companion! 🛍️🛒 
+# 10/05/23 RR8 Cartopia: Your Ultimate Shopping Companion! 🛍️🛒 
 
-A REST API service for an Online Shopping Application. This exciting API allows customers to login to their profiles, update their information, and seamlessly navigate through a delightful shopping experience. Meanwhile, the diligent admin oversees the operations, ensuring smooth functionality and access to valuable data within the Admin Module. 
+A REST API service for an Online Shopping Application. This exciting API allows customers to login to their profiles, update their information, and seamlessly navigate through a delightful shopping experience. Meanwhile, the admin oversees the operations, ensuring smooth functionality and access to valuable data within the Admin Module. 
 
 ## Tech Stack 👨‍🔧
 - Java
@@ -12,7 +12,7 @@ A REST API service for an Online Shopping Application. This exciting API allows 
 
 ## Features 🎨
 
-- 🔐 Data Authentication and Validation: authentication and validation mechanisms ensure secure access for both admins and customers.
+- Data Authentication and Validation: authentication and validation mechanisms ensure secure access for both admins and customers 🔐 
 
 ### Admin Features
 - Access to Order Details: Admins can effortlessly view all order details and obtain specific order details using a particular customer's ID.
